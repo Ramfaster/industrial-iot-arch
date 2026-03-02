@@ -2,16 +2,8 @@
 layout: post
 title: "Designing SCADA OPC-UA Architecture on AWS"
 date: 2026-03-02
-categories:
-  - Industrial-IoT
-  - Architecture
-  - AWS
-tags:
-  - OPC-UA
-  - AWS
-  - InfluxDB
-  - Data-Streaming
-  - High-Availability
+categories: Industrial-IoT,Architecture,AWS
+tags: OPC-UA,AWS,InfluxDB,Data-Streaming,High-Availability
 ---
 
 ## 1. Introduction
