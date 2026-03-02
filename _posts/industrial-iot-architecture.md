@@ -2,7 +2,8 @@
 layout: post
 title: "Designing SCADA OPC-UA to Architecture on AWS"
 date: 2026-03-02
-categories: industrial-iot aws scada
+categories: [Industrial IoT, Architecture, AWS]
+tags: [OPC-UA, Kafka, MSK, EKS, SCADA, High Availability]
 ---
 
 ## 1. Introduction
@@ -19,6 +20,8 @@ This article explains how to design a reliable data pipeline using:
 - High Availability Architecture
 - Energy & Manufacturing Data Modeling
 
+Designed for real-world industrial environments.
+
 ---
 
 ## 2. Architecture Overview
@@ -29,14 +32,27 @@ SCADA → OPC-UA → Collector → IoT OPC-UA Client → AWS EKS (Stream Process
 
 ## 3. Key Design Considerations
 
-### 1) Latency
-Industrial systems require low latency.
+### 1) Designed for real-world industrial environments.
+Industrial systems require stable data ingestion even under network degradation.
 
-### 2) High Availability
-Infra Architecture multi-AZ configuration.
+### 2) High Availability Requirements
+Unlike typical web systems, downtime impacts physical operations.
+
+---
+
+## High Availability Strategy
+
+- Multi-AZ MSK cluster  
+- Redundant OPC-UA collectors  
+- Health-checked Kubernetes pods  
+- Database replication strategy  
+
+Reliability is not optional in industrial systems.
 
 ### 3) Security & Network
 SCADA F/W Network & AWS VPN Tunnel
+Industrial networks often restrict outbound connectivity.  
+Architecture must respect operational policies.
 
 ### 4) Scalability
 Containerized collectors deployed on AWS EKS.
@@ -45,7 +61,16 @@ Containerized collectors deployed on AWS EKS.
 
 ## 4. Conclusion
 
+Industrial IoT architecture must prioritize:
+
+- Reliability  
+- Operational continuity  
+- Secure boundary management  
+- Clear separation between OT and IT
+  
 OT-IT integration requires careful architecture design.
+Scalability comes second to resilience.
+More deep-dives will follow in upcoming articles.
 
 ---
 
