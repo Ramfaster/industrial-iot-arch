@@ -2,8 +2,8 @@
 layout: post
 title: "Designing SCADA OPC-UA to Architecture on AWS"
 date: 2026-03-02
-categories: [Industrial IoT, Architecture, AWS]
-tags: [OPC-UA, Kafka, MSK, EKS, SCADA, High Availability]
+categories: Industrial IoT, Architecture, AWS
+tags: OPC-UA, Kafka, MSK, EKS, SCADA, High Availability]
 ---
 
 ## 1. Introduction
