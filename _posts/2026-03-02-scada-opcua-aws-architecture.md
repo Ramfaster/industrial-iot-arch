@@ -83,3 +83,20 @@ OT-IT integration requires careful architecture design.
 Scalability comes second to resilience.
 
 More detailed architecture breakdown will follow.
+
+
+## Reference Architecture
+
+![Industrial IoT Secure SCADA to Cloud Architecture](/assets/img/blueprints/industrial-iot-blueprint-01.svg)
+{: .shadow }
+
+### Architectural Layers
+
+- OT / SCADA Layer
+- Field Network Layer
+- Cloud VPN Boundary
+- Data Collection Layer
+- Streaming Layer
+- Processing Layer
+- Time-Series Storage
+- Visualization Layer
