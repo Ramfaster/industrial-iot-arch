@@ -84,12 +84,9 @@ Scalability comes second to resilience.
 
 More detailed architecture breakdown will follow.
 
-
 ## Reference Architecture
 
-## Reference Architecture
-
-![Industrial IoT Secure SCADA to Cloud Architecture]({{ "/assets/img/blueprints/industrial-iot-blueprint-01.png" | relative_url }})
+![Industrial IoT Secure SCADA to Cloud Architecture]({{ "/assets/industrial-iot-blueprint-01.png" | relative_url }})
 {: .shadow }
 
 ### Architectural Layers
