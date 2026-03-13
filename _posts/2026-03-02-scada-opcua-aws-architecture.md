@@ -86,7 +86,7 @@ More detailed architecture breakdown will follow.
 
 ## Reference Architecture
 
-![Industrial IoT Secure SCADA to Cloud Architecture]({{ "/assets/img/blueprints/industrial-iot-blueprint-01.png" | relative_url }})
+![Industrial IoT Secure SCADA to Cloud Architecture]({{ "/assets/img/blueprints/industrial-iot-blueprint-01.png"}})
 {: .shadow }
 
 ### Architectural Layers
