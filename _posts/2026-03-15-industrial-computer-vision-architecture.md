@@ -2,8 +2,8 @@
 title: "Blueprint #4 -- Industrial Computer Vision Architecture"
 date: 2026-03-15
 order: 4
-categories:Smart Factory,Industrial AI
-tags:computer-vision,ai,edge-ai,manufacturing,smart-factory
+categories: Smart Factory,Industrial AI
+tags: computer-vision,ai,edge-ai,manufacturing,smart-factory
 image: /assets/img/blueprints/blueprint4-computer-vision-architecture.png
 ---
 
