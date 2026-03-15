@@ -67,7 +67,7 @@ This enables:
 # 2. High-Level Architecture
 
 A scalable **Industrial Streaming Architecture** typically consists of the following layers.
-![Industrial Streaming Architecture](/assets/img/blueprints/industrial-streaming-architecture.png){: .shadow }
+![Industrial Streaming Architecture](/assets/img/blueprints/industrial-HighLevel-architecture.png){: .shadow }
 
 Each layer has a **clear responsibility boundary**, which is critical for maintainability.
 
