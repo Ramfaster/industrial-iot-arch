@@ -139,7 +139,6 @@ machine_id
 production_line
 factory_site
 
-
 This enables **parallel stream processing**.
 
 ---
