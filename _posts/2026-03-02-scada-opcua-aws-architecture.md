@@ -1,17 +1,10 @@
 ---
 layout: post
 title: "Industrial Data Pipeline Architecture for Smart Factory Systems"
-date: 2026-03-02
-categories:
-  - Smart-Factory
-  - Industrial-Architecture
-tags:
-  - Smart-Factory
-  - Industrial-IoT
-  - OPC-UA
-  - Data-Pipeline
-  - Streaming
-  - Microservices
+date: 2026-03-15
+categories: Smart-Factory, Industrial-Architecture
+tags: Smart-Factory, Industrial-IoT, OPC-UA, Data-Pipeline, Streaming, Microservices
+
 ---
 
 ## Introduction
