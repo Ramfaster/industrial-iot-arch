@@ -1,6 +1,7 @@
 ---
 title: "Blueprint #3 – Industrial AI Platform Architecture"
 date: 2026-03-15
+order: 3
 categories: Smart Factory, Industrial AI
 tags: industrial ai, mlops, smart factory, predictive maintenance, kafka, kubernetes
 image: /assets/img/blueprints/industrial-ai-platform.png
