@@ -148,7 +148,7 @@ Typical Kafka cluster architecture:
 
          ┌──────────────┐
          │  Producers   │
-         │ Gateways     │
+         │  Gateways    │
          └──────┬───────┘
                 │
                 ▼
@@ -200,7 +200,7 @@ Typical frameworks:
 
 | Framework | Use Case |
 |---------|---------|
-| Apache Flink | complex event processing |
+| Kafka or Apache Flink | complex event processing |
 | Kafka Streams | lightweight streaming |
 | Spark Structured Streaming | large-scale pipelines |
 
@@ -300,8 +300,8 @@ Example stack:
 | Layer | Technology |
 |-----|------|
 | Hot | ClickHouse / Druid |
-| Warm | PostgreSQL |
-| Cold | Data Lake (S3 / HDFS) |
+| Warm | RDBMS(Mysql,OpenDataBase, etc |
+| Cold | Data Lake (AWS S3 / HDFS) |
 
 ---
 
@@ -398,10 +398,10 @@ Example production stack:
 
 | Layer | Technology |
 |------|-----------|
-| Edge Gateway | K3s + MQTT |
+| Edge Gateway | MQTT |
 | Streaming | Apache Kafka |
 | Processing | Apache Flink |
-| Storage | ClickHouse + S3 |
+| Storage | Timeserise + ASW S3 |
 | Monitoring | Prometheus + Grafana |
 | Orchestration | Kubernetes |
 
