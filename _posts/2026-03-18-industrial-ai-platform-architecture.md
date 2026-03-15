@@ -1,4 +1,5 @@
 ---
+layout: post
 title: "Blueprint #3 – Industrial AI Platform Architecture"
 date: 2026-03-18
 categories: Smart Factory, Industrial AI
