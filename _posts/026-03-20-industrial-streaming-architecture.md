@@ -1,8 +1,8 @@
 ---
 title: "Industrial Streaming Architecture"
 date: 2026-03-15
-categories: [Smart Factory, Architecture Blueprint]
-tags: [smart factory, streaming architecture, kafka, industrial data, iiot, real-time analytics]
+categories: Smart Factory, Architecture Blueprint
+tags: smart factory, streaming architecture, kafka, industrial data, iiot, real-time analytics
 image: /assets/img/blueprints/industrial-streaming-architecture.png
 ---
 
@@ -69,32 +69,32 @@ This enables:
 A scalable **Industrial Streaming Architecture** typically consists of the following layers.
 
 ┌───────────────────────────────┐
-│ Industrial Devices │
-│ PLC / Sensors / Robots │
+│ Industrial Devices            │
+│ PLC / Sensors / Robots        │
 └───────────────┬───────────────┘
-│
-▼
+                │
+                ▼
 ┌───────────────────────────────┐
-│ Edge / Gateway Layer │
-│ OPC-UA / MQTT / Modbus │
+│ Edge / Gateway Layer          │
+│ OPC-UA / MQTT / Modbus        │
 └───────────────┬───────────────┘
-│
-▼
+                │
+                ▼
 ┌───────────────────────────────┐
-│ Streaming Platform │
-│ Apache Kafka / Redpanda │
+│ Streaming Platform            │
+│ Apache Kafka / Redpanda       │
 └───────────────┬───────────────┘
-│
-▼
+                │
+                ▼
 ┌───────────────────────────────┐
-│ Stream Processing │
+│ Stream Processing             │
 │ Flink / Spark / Kafka Streams │
 └───────────────┬───────────────┘
-│
-▼
+                │
+                ▼
 ┌───────────────────────────────┐
-│ Data Consumers │
-│ MES / Analytics / AI / APIs │
+│ Data Consumers                │
+│ MES / Analytics / AI / APIs   │
 └───────────────────────────────┘
 
 
@@ -121,15 +121,14 @@ PLC → OPC-UA → Edge Gateway → MQTT → Kafka
 
 Typical edge stack:
 
-ndustrial Device
+Industrial Device
 │
 ▼
 Edge Gateway
-├ OPC-UA Collector
-├ MQTT Client
-├ Protocol Converter
-└ Local Buffer
-
+  ├ OPC-UA Collector
+  ├ MQTT Client
+  ├ Protocol Converter
+  └ Local Buffer
 
 Edge buffering is essential to handle **network interruptions**.
 
@@ -456,7 +455,7 @@ This blueprint provides a **reference architecture for building scalable streami
 
 The next blueprint explores **how real-time industrial data becomes an AI platform**.
 
-➡ **Blueprint #3 — Industrial AI Platform Architecture**
+➡ **#3 — Industrial AI Platform Architecture**
 
 We will cover:
 
