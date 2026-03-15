@@ -4,7 +4,7 @@ title: "Blueprint #1 – Industrial Data Pipeline Architecture for Smart Factory
 date: 2026-03-15
 categories: Smart-Factory, Industrial-Architecture
 tags: Smart-Factory, Industrial-IoT, OPC-UA, Data-Pipeline, Streaming, Microservices
-
+image: /assets/img/blueprints/industrial-iot-blueprint-01.png
 ---
 
 ## Introduction
