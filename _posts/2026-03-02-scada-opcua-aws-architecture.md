@@ -42,7 +42,7 @@ Unlike typical web systems, downtime impacts physical operations.
 
 ---
 
-## High Availability Strategy
+### High Availability Strategy
 
 - Multi-AZ MSK cluster  
 - Redundant OPC-UA collectors  
