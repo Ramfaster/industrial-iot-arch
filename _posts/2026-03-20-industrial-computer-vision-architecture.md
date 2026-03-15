@@ -6,7 +6,7 @@ tags: computer-vision,ai,edge-ai,manufacturing,smart-factory
 image: /assets/img/blueprints/blueprint4-computer-vision-architecture.png
 ---
 
-# Blueprint #4 -- Industrial Computer Vision Architecture
+# Blueprint #4 - Industrial Computer Vision Architecture
 
 Modern smart factories increasingly rely on **AI-based computer vision**
 for quality inspection, safety monitoring, and production analytics.
