@@ -6,7 +6,7 @@ tags: smart factory, streaming architecture, kafka, industrial data, iiot, real-
 image: /assets/img/blueprints/industrial-streaming-architecture.png
 ---
 
-# Industrial Streaming Architecture
+# Blueprint #2 - Industrial Streaming Architecture
 
 Industrial environments generate **continuous, high-velocity operational data** from PLCs, sensors, robots, MES systems, and industrial gateways.  
 To build a **real-time smart factory**, this data must be processed as **streams rather than batches**.
