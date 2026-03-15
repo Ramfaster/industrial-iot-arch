@@ -67,36 +67,7 @@ This enables:
 # 2. High-Level Architecture
 
 A scalable **Industrial Streaming Architecture** typically consists of the following layers.
-
-┌───────────────────────────────┐
-│ Industrial Devices            │
-│ PLC / Sensors / Robots        │
-└───────────────┬───────────────┘
-                │
-                ▼
-┌───────────────────────────────┐
-│ Edge / Gateway Layer          │
-│ OPC-UA / MQTT / Modbus        │
-└───────────────┬───────────────┘
-                │
-                ▼
-┌───────────────────────────────┐
-│ Streaming Platform            │
-│ Apache Kafka / Redpanda       │
-└───────────────┬───────────────┘
-                │
-                ▼
-┌───────────────────────────────┐
-│ Stream Processing             │
-│ Flink / Spark / Kafka Streams │
-└───────────────┬───────────────┘
-                │
-                ▼
-┌───────────────────────────────┐
-│ Data Consumers                │
-│ MES / Analytics / AI / APIs   │
-└───────────────────────────────┘
-
+![Industrial Streaming Architecture](/assets/img/blueprints/industrial-streaming-architecture.png){: .shadow }
 
 Each layer has a **clear responsibility boundary**, which is critical for maintainability.
 
@@ -146,26 +117,7 @@ Common choices:
 
 Typical Kafka cluster architecture:
 
-         ┌──────────────┐
-         │  Producers   │
-         │  Gateways    │
-         └──────┬───────┘
-                │
-                ▼
-    ┌──────────────────────┐
-    │   Kafka Cluster      │
-    │                      │
-    │ Broker 1             │
-    │ Broker 2             │
-    │ Broker 3             │
-    └──────┬───────────────┘
-           │
-           ▼
-    ┌──────────────┐
-    │ Consumers    │
-    │ Processing   │
-    └──────────────┘
-
+![Industrial Streaming Architecture](/assets/img/blueprints/Kafka cluster architecture.png){: .shadow }
 
 Key Kafka configuration concepts:
 
