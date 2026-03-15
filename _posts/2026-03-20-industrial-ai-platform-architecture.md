@@ -418,6 +418,6 @@ it is building the **platform that runs them reliably in production**.
 
 The next article in this series will explore:
 
-**#4 — Industrial Computer Vision Architecture**
+➡ **#4 — Industrial Computer Vision Architecture**
 
 This blueprint will explain how factories deploy large-scale **AI vision inspection systems** for automated quality control.
