@@ -78,11 +78,12 @@ Centralized storage for:
 - Metadata (accuracy, dataset, parameters)
 
 Example:
-| Version | Description          |
-| ------- | -------------------- |
-| v1.0    | Initial deployment   |
-| v1.1    | Accuracy improvement |
-| v2.0    | Architecture change  |
+
+| Version  | Description           |
+| ------ | ------------------------ |
+| v1.0   | Initial deployment      |
+| v1.1  | Accuracy improvement      |
+| v2.0 | Architecture change |
 
 ### 3. CI/CD Pipeline (MLOps)
 Git Commit
@@ -226,8 +227,7 @@ Must consider:
 
 ## Final Thoughts
 
-“In Industrial AI, success is not defined by model accuracy alone,
-but by how reliably that model operates in production.”
+> **“In Industrial AI, success is not defined by model accuracy alone,but by how reliably that model operates in roduction.”
 
 This blueprint represents the transition from:
 - AI Development → AI Operations (AI at Scale)
