@@ -227,14 +227,17 @@ Must consider:
 
 ## Final Thoughts
 
-> **“In Industrial AI, success is not defined by model accuracy alone,but by how reliably that model operates in roduction.”
+> **“In Industrial AI, success is not defined by model accuracy alone,but by how reliably that model operates in production.”
 
 This blueprint represents the transition from:
 - AI Development → AI Operations (AI at Scale)
 
 ---
 
-## Next Step
+## Previous Blueprint
 
-Blueprint #6
-Industrial Observability & Digital Twin Architecture
+← [Blueprint #4 CV Architecture](/posts/blueprint-04-cv-architecture/)
+
+## Next Blueprint
+
+→ [Blueprint #6 Observability & Digital Twin](/posts/blueprint-06-observability/)
