@@ -3,7 +3,6 @@ title: "Industrial IoT Blueprint #5 - MLOps & Edge Deployment Architecture"
 date: 2026-03-25 10:00:00 +0900
 categories: Industrial IoT, Smart Factory
 tags: IIoT, MLOps, Edge AI, Kubernetes, Smart Factory, AI Deployment
-order: 5
 ---
 
 # Industrial IoT Blueprint #5  
@@ -41,77 +40,131 @@ This blueprint focuses on:
 ![MLOps Architecture](/assets/img/blueprints/industrial-iot-blueprint-05-01.png)
 
 
-
 ## End-to-End MLOps Flow
 
 ![MLOps Pipeline](/assets/img/blueprints/industrial-iot-blueprint-05-02.png)
 
-### 1. Data → Training
+## Edge Deployment Architecture
 
-- Data is collected from **Blueprint #1 Data Pipeline**
-- Processed and stored in Feature Store
-- Model training occurs in **Blueprint #3 AI Platform**
+![Edge Deployment](/assets/img/blueprints/industrial-iot-blueprint-05-03.png)
 
-Raw Data → Feature Store → Training → Model Artifact
+Key characteristics of edge environments:
 
+- Low latency requirements  
+- Intermittent connectivity  
+- Hardware constraints (CPU/GPU)  
 
----
+### Edge Stack
 
-# 2. Model Registry
+- Kubernetes (K3s)
+- Docker Container Runtime
+- Model Serving Layer:
+  - ONNX Runtime  
+  - TensorRT  
+  - TorchServe
+ 
+## Core Components
 
-## Model Registry
+### Model Serving
 
-Centralized storage for:
+Responsible for real-time inference:
 
-- Model artifacts
-- Version control
-- Metadata (accuracy, dataset, parameters)
-
-Example:
-
-| Version | Description |
-|--------|------------|
-| v1.0 | Initial deployment |
-| v1.1 | Accuracy improvement |
-| v2.0 | Architecture change |
-
-## 3. CI/CD Pipeline (MLOps)
-
-Git Commit
-   ↓
-Model Build
-   ↓
-Validation (Accuracy / Latency)
-   ↓
-Container Packaging
-   ↓
-Deployment to Edge
+- ONNX Runtime → portability  
+- TensorRT → GPU optimization  
+- TorchServe → PyTorch deployment  
 
 ---
 
-# 4. Edge Deployment
+### CI/CD Pipeline
 
-## Edge Deployment
+Enables automated deployment:
 
-Models are deployed to edge environments using:
+- GitHub Actions  
+- ArgoCD  
 
-- Kubernetes (K3s / MicroK8s)
-- Container-based workloads
-- GPU acceleration (if available)
+---
 
-Deployment Patterns:
+### Model Registry
 
-- Blue-Green Deployment  
-- Canary Deployment
+Stores and manages models:
 
-## 5. Monitoring & Feedback Loop
+- MLflow  
+- S3 / MinIO  
 
-Continuous monitoring ensures model reliability:
+---
 
-- Inference latency  
-- Accuracy drift  
-- Data distribution shift  
-- Device health  
+### Monitoring & Observability
 
-This feedback is sent back to the cloud for:
-Retraining → Redeployment → Continuous improvement
+Tracks system and model performance:
+
+- Prometheus  
+- Grafana
+
+## Deployment Strategies
+
+### Blue-Green Deployment
+
+- Two environments (v1, v2)
+- Instant traffic switch
+- Safe rollback capability
+
+---
+
+### Canary Deployment
+
+- Gradual rollout
+
+10% → 30% → 100%
+
+## Edge vs Cloud Responsibilities
+
+| Layer | Responsibility |
+|------|----------------|
+| Edge | Real-time inference |
+| Cloud | Training, analytics |
+| Hybrid | Continuous learning loop |
+
+## Key Design Principles
+
+### Reliability
+
+- Must operate even when offline  
+- Edge autonomy is critical  
+
+---
+
+### Scalability
+
+- Manage hundreds or thousands of edge nodes  
+
+---
+
+### Observability
+
+- Monitor model performance in real-time  
+- Detect drift and anomalies  
+
+---
+
+### Security
+
+- Model encryption  
+- Secure OTA updates  
+- Device authentication
+
+## Integration with Previous Blueprints
+
+| Blueprint | Role |
+|----------|------|
+| #1 Data Pipeline | Data collection |
+| #2 Streaming | Real-time data flow |
+| #3 AI Platform | Model training |
+| #4 CV Architecture | Vision-based models |
+
+## Real-World Industrial Considerations
+
+### Network Constraints
+
+- Edge must work without
+
+
