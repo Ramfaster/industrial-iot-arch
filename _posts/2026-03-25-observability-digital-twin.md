@@ -131,7 +131,7 @@ And ultimately:
 
 ## 2. Architecture Overview
 
-### High-Level Observability + Digital Twin Architecture
+### 2-1 High-Level Observability + Digital Twin Architecture
 
 The Industrial Observability and Digital Twin architecture provides a unified framework for monitoring, simulation, and control across the entire smart factory ecosystem.
 
@@ -148,9 +148,9 @@ At a high level, the system is composed of four primary layers:
 
 ---
 
-### Key Layers
+### 2-2 Key Layers
 
-#### 1. Data Collection Layer  
+#### A. Data Collection Layer  
 This layer is responsible for capturing raw data from industrial environments.
 
 **Sources include:**
@@ -170,7 +170,7 @@ This layer forms the foundation for both observability and digital twin synchron
 
 ---
 
-#### 2. Observability Platform Layer  
+#### B. Observability Platform Layer  
 This layer aggregates, processes, and analyzes data to provide deep visibility into system behavior.
 
 **Core capabilities:**
@@ -189,7 +189,7 @@ The observability platform transforms raw data into actionable insights, enablin
 
 ---
 
-#### 3. Digital Twin Simulation Layer  
+#### C. Digital Twin Simulation Layer  
 This layer creates and maintains virtual representations of physical systems.
 
 **Core functions:**
@@ -208,7 +208,7 @@ By mirroring real-world operations, this layer enables safe experimentation and 
 
 ---
 
-#### 4. Visualization & Control Layer  
+#### D. Visualization & Control Layer  
 This layer provides interfaces for monitoring, decision-making, and system control.
 
 **Capabilities include:**
@@ -226,7 +226,7 @@ This layer closes the loop by enabling actions based on insights and simulations
 
 ---
 
-### Architecture Flow Summary
+### 2-3 Architecture Flow Summary
 
 The interaction between layers can be summarized as:
 
@@ -893,7 +893,7 @@ By scaling predictive models across the factory, organizations achieve higher re
 
 ---
 
-## 8-1. Future of Industrial Systems
+### 8-1. Future of Industrial Systems
 
 Industrial systems are evolving toward fully autonomous and self-optimizing environments.
 
@@ -938,7 +938,7 @@ Simulation becomes a core component of decision-making rather than a supplementa
 
 ---
 
-## 8-2. Final Thoughts
+### 8-2. Final Thoughts
 
 --> **The Industrial IoT architecture has evolved into a fully integrated system that connects data, intelligence, and action.**
 
