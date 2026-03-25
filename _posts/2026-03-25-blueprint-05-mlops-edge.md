@@ -39,10 +39,7 @@ This blueprint focuses on:
 
 ![MLOps Architecture](/assets/img/blueprints/industrial-iot-blueprint-05-01.png)
 
-
-## End-to-End MLOps Flow
-
-![MLOps Pipeline](/assets/img/blueprints/industrial-iot-blueprint-05-02.png)
+---
 
 ## Edge Deployment Architecture
 
@@ -60,6 +57,12 @@ This blueprint focuses on:
   : ONNX Runtime
   : TensorRT
   : TorchServe
+
+---
+
+## End-to-End MLOps Flow
+
+![MLOps Pipeline](/assets/img/blueprints/industrial-iot-blueprint-05-02.png)
 
 ### 1. Data → Training
 - Data is collected from Blueprint #1 Data Pipeline
@@ -116,6 +119,8 @@ Continuous monitoring ensures model reliability:
 This feedback is sent back to the cloud for:
 - Retraining → Redeployment → Continuous improvement
  
+---
+
 ## Core Components
 
 ### 1. Model Serving
@@ -124,26 +129,22 @@ Responsible for real-time inference:
 - TensorRT → GPU optimization  
 - TorchServe → PyTorch deployment  
 
----
-
 ### 2. CI/CD Pipeline
 Enables automated deployment:
 - GitHub Actions  
 - ArgoCD  
-
----
 
 ### 3. Model Registry
 Stores and manages models:
 - MLflow  
 - S3 / MinIO  
 
----
-
 ### 4. Monitoring & Observability
 Tracks system and model performance:
 - Prometheus  
 - Grafana
+
+---
 
 ## Deployment Strategies
 
@@ -152,13 +153,9 @@ Tracks system and model performance:
 - Instant traffic switch
 - Safe rollback capability
 
----
-
 ### 2. Canary Deployment
 - Gradual rollout
 10% → 30% → 100%
-
----
 
 ### 3. OTA (Over-the-Air) Update
 Remote model updates across factories
@@ -174,6 +171,8 @@ Must consider:
 | Edge   | Real-time inference      |
 | Cloud  | Training, analytics      |
 | Hybrid | Continuous learning loop |
+
+---
 
 ## Key Design Principles
 
@@ -202,6 +201,8 @@ Must consider:
 | #3 AI Platform | Model training |
 | #4 CV Architecture | Vision-based models |
 
+---
+
 ## Real-World Industrial Considerations
 
 ### 1. Network Constraints
@@ -221,6 +222,8 @@ Must consider:
 - Version compatibility issues
 - Rollback requirements
 
+---
+
 ## Final Thoughts
 
 “In Industrial AI, success is not defined by model accuracy alone,
@@ -228,6 +231,8 @@ but by how reliably that model operates in production.”
 
 This blueprint represents the transition from:
 - AI Development → AI Operations (AI at Scale)
+
+---
 
 ## Next Step
 
