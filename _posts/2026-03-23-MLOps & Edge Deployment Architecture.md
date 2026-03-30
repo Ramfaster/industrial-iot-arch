@@ -3,6 +3,7 @@ title: "Blueprint #5 - MLOps & Edge Deployment Architecture"
 date: 2026-03-23 10:00:00 +0900
 categories: Industrial IoT, Smart Factory
 tags: IIoT, MLOps, Edge AI, Kubernetes, Smart Factory, AI Deployment
+image: /assets/img/blueprints/blueprint5-mlops-edge-architecture.png
 ---
 
 # Industrial IoT Blueprint #5  
@@ -37,13 +38,13 @@ This blueprint focuses on:
 
 ## Architecture Overview
 
-![MLOps Architecture](/assets/img/blueprints/industrial-iot-blueprint-05-01.png)
+![MLOps Architecture](/assets/img/blueprints/Industrial-mlops-architecture.png)
 
 ---
 
 ## Edge Deployment Architecture
 
-![Edge Deployment](/assets/img/blueprints/industrial-iot-blueprint-05-03.png)
+![Edge Deployment](/assets/img/blueprints/edge-deployment-archtecture.png)
 
 ### Key characteristics of edge environments:
 - Low latency requirements
@@ -62,7 +63,7 @@ This blueprint focuses on:
 
 ## End-to-End MLOps Flow
 
-![MLOps Pipeline](/assets/img/blueprints/industrial-iot-blueprint-05-02.png)
+![MLOps Pipeline](/assets/img/blueprints/endtoend-mlops-flow.png)
 
 ### 1. Data → Training
 - Data is collected from Blueprint #1 Data Pipeline
