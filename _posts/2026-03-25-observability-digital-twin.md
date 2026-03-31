@@ -1,7 +1,7 @@
 ---
 title: "Blueprint #6: Industrial Observability & Digital Twin Architecture"
 date: 2026-03-25 10:00:00 +0900
-categories: Industrial IoT, Architecture
+categories: Smart-Factory, Industrial-Architecture
 tags: Observability, Digital Twin, Smart Factory, MLOps, AI, Streaming
 image: /assets/img/blueprints/industrial-iot-blueprint-06.png
 ---
