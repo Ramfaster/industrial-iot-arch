@@ -1,7 +1,7 @@
 ---
 title: "Blueprint #2 – Industrial Streaming Architecture"
 date: 2026-03-06
-categories: Smart Factory, Architecture Blueprint
+categories: Smart-Factory, Industrial-Architecture
 tags: smart factory, streaming architecture, kafka, industrial data, iiot, real-time analytics
 image: /assets/img/blueprints/industrial-streaming-architecture.png
 ---
