@@ -1,7 +1,7 @@
 ---
 title: "Blueprint #5 - MLOps & Edge Deployment Architecture"
 date: 2026-03-23 10:00:00 +0900
-categories: Industrial IoT, Smart Factory
+categories: Smart-Factory, Industrial-Architecture
 tags: IIoT, MLOps, Edge AI, Kubernetes, Smart Factory, AI Deployment
 image: /assets/img/blueprints/blueprint5-mlops-edge-architecture.png
 ---
