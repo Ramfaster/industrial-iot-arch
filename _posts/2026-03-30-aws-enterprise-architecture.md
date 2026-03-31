@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Industrial on AWS Cloud #1 – Industrial IoT + AWS-based Enterprise Network + Data Platform Integration Architecture"
+title: "Industrial IoT on AWS #1 – Industrial IoT + AWS Cloud based Network + Data Platform Integration Architecture"
 date: 2026-03-30
 categories: AWS-Architecture
 tags: AWS Cloud, OPC-UA, Data-Pipeline, Streaming, Microservices
