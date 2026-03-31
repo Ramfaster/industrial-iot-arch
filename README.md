@@ -1,4 +1,4 @@
-# KaleHyben Start
+# KyleHyben Start
 
-Industrial IoT | OT-IT Convergence | SCADA | AWS Architecture
+Industrial IoT | OT-IT | SCADA | AWS Architecture
 
